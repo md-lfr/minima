@@ -30,6 +30,10 @@ lang:
 
 ## END: TESTING EXISTING FEATURES
 
+# header_pages:
+#   - about.md
+#   - portfolio.md
+
 # social links
 twitter_username: test
 # github_username:  jekyll
