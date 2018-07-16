@@ -22,6 +22,14 @@ google_analytics_audiences:
   
 ## END: NEW FEATURES
 
+
+## START: TESTING EXISTING FEATURES
+
+lang:
+  pt-BR
+
+## END: TESTING EXISTING FEATURES
+
 # social links
 twitter_username: jekyllrb
 github_username:  jekyll
