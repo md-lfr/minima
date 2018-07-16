@@ -2,12 +2,12 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% include add-robots-meta_tag.html %}
+  {% if page.robots %}{% include add-robots-meta_tag.html %}{% endif %}
   {%- seo -%}
-  {% include add-viacdn-dns_prefetch.html %}
-  {% include add-google_adsense-dns_prefetch.html %}
-  {% include add-google_analytics-dns_prefetch.html %}
-  {% include add-google_analytics_audiences-dns_prefetch.html %}
+  {% if site.viacdn %}{% include add-viacdn-dns_prefetch.html %}{% endif %}
+  {% if site.google_adsense %}{% include add-google_adsense-dns_prefetch.html %}{% endif %}
+  {% if site.google_analytics %}{% include add-google_analytics-dns_prefetch.html %}{% endif %}
+  {% if site.google_analytics_audiences %}{% include add-google_analytics_audiences-dns_prefetch.html %}{% endif %}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  {% include add-google_analytics-tracking_code.html %}
+  {% if site.google_analytics %}{% include add-google_analytics-tracking_code.html %}{% endif %}
 </head>
