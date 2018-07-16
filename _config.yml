@@ -31,13 +31,13 @@ lang:
 ## END: TESTING EXISTING FEATURES
 
 # social links
-# twitter_username: jekyllrb
+twitter_username: test
 # github_username:  jekyll
-# rss: rss
+rss: https://feeds.feedburner.com/test
 # dribbble_username: jekyll
-# facebook_username: jekyll
+facebook_username: test
 # flickr_username: jekyll
-# instagram_username: jekyll
+instagram_username: test
 # linkedin_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
