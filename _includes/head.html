@@ -7,7 +7,6 @@
 {% if page.robots %}{% include add-robots-meta_tag.html %}{% endif %}
 {%- seo -%}
 
-<!-- DNS Prefetching -->
 {% if site.viacdn %}{% include add-viacdn-dns_prefetch.html %}{% endif %}
 {% if site.google_adsense %}{% include add-google_adsense-dns_prefetch.html %}{% endif %}
 {% if site.google_analytics %}{% include add-google_analytics-dns_prefetch.html %}{% endif %}
