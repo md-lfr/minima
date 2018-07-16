@@ -19,5 +19,10 @@
 {{ inline_css | scssify }}
 </style>
 
+<!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
 {% if site.google_analytics %}{% include add-google_analytics-tracking_code.html %}{% endif %}
 </head>
