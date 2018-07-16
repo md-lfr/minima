@@ -8,8 +8,8 @@ description: > # this means to ignore newlines until "twitter_username:"
 
 ## START: NEW FEATURES
 
-viacdn:
-  aloha-com
+# viacdn:
+#   aloha-com
 
 google_adsense: 
   yes
