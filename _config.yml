@@ -14,6 +14,9 @@ robots:
 html_title:
   HTML Title
 
+site_title:
+  Testing site_title
+
 # viacdn:
 #   aloha-com
 
