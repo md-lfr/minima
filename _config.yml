@@ -11,6 +11,9 @@ description: > # this means to ignore newlines until "twitter_username:"
 robots:
   noindex,nofollow
 
+html_title:
+  HTML Title
+
 # viacdn:
 #   aloha-com
 
