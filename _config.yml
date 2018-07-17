@@ -18,7 +18,7 @@ html_title:
 #   yes
 
 dns_prefetch:
-  - viacdn: ops.viacdn.org
+  viacdn: ops.viacdn.org
   - google_tagmanager: yes
   - google_analytics: yes
   - google_analytics_audiences: yes
