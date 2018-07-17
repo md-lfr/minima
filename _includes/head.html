@@ -7,11 +7,11 @@
 {% if page.robots or site.robots %}{% include add-robots-meta_tag.html %}{% endif %}
 
 
-{% if site.dns_prefetch.viacdn %}{% include add-viacdn-dns_prefetch.html %}{% endif %}
-{% if site.dns_prefetch.google_tagmanager %}{% include add-google_tagmanager-dns_prefetch.html %}{% endif %}
-{% if site.dns_prefetch.google_adsense %}{% include add-google_adsense-dns_prefetch.html %}{% endif %}
-{% if site.dns_prefetch.google_analytics %}{% include add-google_analytics-dns_prefetch.html %}{% endif %}
-{% if site.dns_prefetch.google_analytics_audiences %}{% include add-google_analytics_audiences-dns_prefetch.html %}{% endif %}
+{% if site.viacdn %}{% include add-viacdn-dns_prefetch.html %}{% endif %}
+{% if site.google_tagmanager %}{% include add-google_tagmanager-dns_prefetch.html %}{% endif %}
+{% if site.google_adsense %}{% include add-google_adsense-dns_prefetch.html %}{% endif %}
+{% if site.google_analytics %}{% include add-google_analytics-dns_prefetch.html %}{% endif %}
+{% if site.google_analytics_audiences %}{% include add-google_analytics_audiences-dns_prefetch.html %}{% endif %}
 
 <style type="text/css" media="all">
 {% capture inline_css %}
