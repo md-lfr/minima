@@ -8,6 +8,9 @@ description: > # this means to ignore newlines until "twitter_username:"
 
 ## START: NEW FEATURES
 
+robots:
+  noindex,nofollow
+
 # viacdn:
 #   aloha-com
 
