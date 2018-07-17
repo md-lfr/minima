@@ -17,12 +17,12 @@ html_title:
 # google_adsense: 
 #   yes
 
-dns_prefetch:
-  viacdn: ops.viacdn.org
-  - google_tagmanager: yes
-  - google_analytics: yes
-  - google_analytics_audiences: yes
-  - google_adsense: yes
+# dns prefetch
+viacdn: ops.viacdn.org
+google_tagmanager: yes
+google_analytics: yes
+google_analytics_audiences: yes
+google_adsense: yes
 
 google_analytics:
   UA-58194468-1
