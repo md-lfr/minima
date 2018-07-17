@@ -14,9 +14,6 @@ robots:
 html_title:
   HTML Title
 
-site_title:
-  Testing site_title
-
 # viacdn:
 #   aloha-com
 
@@ -81,6 +78,6 @@ theme: minima
 
 plugins:
 #  - jekyll-feed
- - jekyll-seo-tag
+# - jekyll-seo-tag
  - jekyll-redirect-from
  - jekyll-sitemap
